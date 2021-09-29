@@ -5,16 +5,16 @@ using namespace std;
 string s1 = "", s2 = "";
 
 int main(){
-    char c;
+	string sc;
 
     ifstream fin;
 
     fin.open("out1.txt");
-    while(fin >> c) s1 += c;
+    while(getline(fin, sc)) s1 = s1 + sc + '\n';
     fin.seekg(0, ios_base::beg);
     fin.close();
     fin.open("out2.txt");
-    while(fin >> c) s2 += c;
+    while(getline(fin, sc)) s2 = s2 + sc + '\n';
     fin.seekg(0, ios_base::beg);
     fin.close();
 
@@ -23,7 +23,7 @@ int main(){
         cout << "[Wrong Answer]\n";
         fin.open("data.txt");
         string si = "";
-        while(fin >> c) si += c;
+         while(getline(fin, sc)) si = si + sc + '\n';
         cout << "Input:\n" << si << "\n\n";
         cout << "Program1 Output:\n" << s1 << "\n\n";
         cout << "Program2 Output:\n" << s2 << "\n\n";
