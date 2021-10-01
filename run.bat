@@ -4,11 +4,11 @@ set /p Times=Enter how many times you want to compare:
 
 cd work
 
-make solve1
-make solve2
-make constructor
-make comparator
-make showresult
+g++ ../program1.cpp -o solve1
+g++ ../program2.cpp -o solve2
+g++ ../constructor.cpp -o constructor
+g++ comparator.cpp -o comparator
+g++ showresult.cpp -o showresult
 
 type nul > ../result.txt
 
