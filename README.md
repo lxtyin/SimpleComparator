@@ -16,7 +16,7 @@
 
 同时所有结果都会保存在result.txt里，关掉控制台后仍然可以查看
 
-![](/pic/QQ截图20211001201358.png)
+![](https://images.cnblogs.com/cnblogs_com/blogs/684906/galleries/2042436/o_211009051720QQ%E6%88%AA%E5%9B%BE20211001201358.png)
 
 
 
