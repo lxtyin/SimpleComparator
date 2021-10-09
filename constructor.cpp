@@ -6,7 +6,8 @@
 using namespace std;
 
 int rd(int x, int y){
-    return rand()%(y - x + 1) + x;
+	int r = 1ll*rand()*rand()%INT_MAX;
+    return r%(y - x + 1) + x;
 }
 
 int toInt(char *s){
