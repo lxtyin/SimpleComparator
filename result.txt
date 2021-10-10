@@ -14,9 +14,37 @@ Test case 7:  [Accepted]
 -------------------------------------
 Test case 8:  [Accepted]
 -------------------------------------
-Test case 9:  [Accepted]
+Test case 9:  [Wrong Answer]
+Input:
+1
+-2 2 1
+1 5 5 1 5
+
+
+Program1 Output:
+Yes
+
+
+Program2 Output:
+No
+
+
 -------------------------------------
-Test case 10:  [Accepted]
+Test case 10:  [Wrong Answer]
+Input:
+1
+-2 1 5
+1 2 4 2 1
+
+
+Program1 Output:
+Yes
+
+
+Program2 Output:
+No
+
+
 -------------------------------------
 Test case 11:  [Accepted]
 -------------------------------------
@@ -28,11 +56,39 @@ Test case 14:  [Accepted]
 -------------------------------------
 Test case 15:  [Accepted]
 -------------------------------------
-Test case 16:  [Accepted]
+Test case 16:  [Wrong Answer]
+Input:
+1
+-4 2 3
+1 4 2 2 1
+
+
+Program1 Output:
+Yes
+
+
+Program2 Output:
+No
+
+
 -------------------------------------
 Test case 17:  [Accepted]
 -------------------------------------
-Test case 18:  [Accepted]
+Test case 18:  [Wrong Answer]
+Input:
+1
+-3 2 2
+1 2 4 5 5
+
+
+Program1 Output:
+Yes
+
+
+Program2 Output:
+No
+
+
 -------------------------------------
 Test case 19:  [Accepted]
 -------------------------------------

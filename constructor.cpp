@@ -1,8 +1,4 @@
-#include <iostream>
-#include <cstdio>
-#include <string.h>
-#include <ctime>
-#include <stdlib.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 int rd(int x, int y){
@@ -24,6 +20,8 @@ int main(int argc, char *argv[]){
     srand((int)time(0) * toInt(argv[1]) );
     //在这下面写随机数据构造器 
 
-    cout << rd(10, 30) << '\n';
+	cout << "1\n";
+	cout << rd(-5, -1) << ' ' << rd(1, 5) << ' ' << rd(1, 5) << '\n';
+	cout << rd(1, 5) << ' ' << rd(1, 5) << ' ' << rd(1, 5) << ' ' << rd(1, 5) << ' ' << rd(1, 5) << '\n';
 
 }
