@@ -6,25 +6,26 @@ cd work
 
 g++ ../program1.cpp -o solve1
 g++ ../program2.cpp -o solve2
-g++ ../constructor.cpp -o constructor
-g++ comparator.cpp -o comparator
-g++ showresult.cpp -o showresult
+g++ ../generator.cpp -o generator
+g++ default_judge.cpp -o checker
+g++ render.cpp -o render
 
 type nul > ../result.txt
 
 for /l %%t in (1, 1, %Times%) do (
-	echo | set /p = Test case %%t:  > tmp.txt
+	echo | set /p = Test case %%t:  
+	echo | set /p = Test case %%t:  >> ../result.txt
 	type nul > data.txt
 	type nul > out1.txt
 	type nul > out2.txt
 
-	constructor %%t > data.txt
+	generator %%t > data.txt
 	type data.txt | solve1 > out1.txt
 	type data.txt | solve2 > out2.txt
 
-	comparator >> tmp.txt
-	type tmp.txt >> ../result.txt
-	showresult
+	checker && checker >> ../result.txt
+	echo -------------------------------------
+	echo ------------------------------------- >> ../result.txt
 )
 set /p Times=Press Enter to continue: 
 @echo on

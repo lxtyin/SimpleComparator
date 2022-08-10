@@ -1,96 +1,250 @@
-Test case 1:  [Accepted]
--------------------------------------
-Test case 2:  [Accepted]
--------------------------------------
-Test case 3:  [Accepted]
--------------------------------------
-Test case 4:  [Accepted]
--------------------------------------
-Test case 5:  [Accepted]
--------------------------------------
-Test case 6:  [Accepted]
--------------------------------------
-Test case 7:  [Accepted]
--------------------------------------
-Test case 8:  [Accepted]
--------------------------------------
-Test case 9:  [Wrong Answer]
+Test case 1:  Wrong Answer
 Input:
-1
--2 2 1
-1 5 5 1 5
-
+2
 
 Program1 Output:
-Yes
-
+2.00000000
 
 Program2 Output:
-No
+2.0000021823
 
-
--------------------------------------
-Test case 10:  [Wrong Answer]
+The accuracy is 0.0000010911
+------------------------------------- 
+Test case 2:  Accepted
+------------------------------------- 
+Test case 3:  Wrong Answer
 Input:
-1
--2 1 5
-1 2 4 2 1
-
+6
 
 Program1 Output:
-Yes
-
+6.00000000
 
 Program2 Output:
-No
+6.0000065295
 
-
--------------------------------------
-Test case 11:  [Accepted]
--------------------------------------
-Test case 12:  [Accepted]
--------------------------------------
-Test case 13:  [Accepted]
--------------------------------------
-Test case 14:  [Accepted]
--------------------------------------
-Test case 15:  [Accepted]
--------------------------------------
-Test case 16:  [Wrong Answer]
+The accuracy is 0.0000010882
+------------------------------------- 
+Test case 4:  Accepted
+------------------------------------- 
+Test case 5:  Wrong Answer
 Input:
-1
--4 2 3
-1 4 2 2 1
-
+6
 
 Program1 Output:
-Yes
-
+6.00000000
 
 Program2 Output:
-No
+6.0000065295
 
-
--------------------------------------
-Test case 17:  [Accepted]
--------------------------------------
-Test case 18:  [Wrong Answer]
+The accuracy is 0.0000010882
+------------------------------------- 
+Test case 6:  Wrong Answer
 Input:
-1
--3 2 2
-1 2 4 5 5
-
+2
 
 Program1 Output:
-Yes
-
+2.00000000
 
 Program2 Output:
-No
+2.0000021823
 
+The accuracy is 0.0000010911
+------------------------------------- 
+Test case 7:  Accepted
+------------------------------------- 
+Test case 8:  Accepted
+------------------------------------- 
+Test case 9:  Accepted
+------------------------------------- 
+Test case 10:  Accepted
+------------------------------------- 
+Test case 11:  Wrong Answer
+Input:
+2
 
--------------------------------------
-Test case 19:  [Accepted]
--------------------------------------
-Test case 20:  [Accepted]
--------------------------------------
+Program1 Output:
+2.00000000
+
+Program2 Output:
+2.0000021823
+
+The accuracy is 0.0000010911
+------------------------------------- 
+Test case 12:  Accepted
+------------------------------------- 
+Test case 13:  Accepted
+------------------------------------- 
+Test case 14:  Wrong Answer
+Input:
+4
+
+Program1 Output:
+4.00000000
+
+Program2 Output:
+4.0000043560
+
+The accuracy is 0.0000010890
+------------------------------------- 
+Test case 15:  Accepted
+------------------------------------- 
+Test case 16:  Wrong Answer
+Input:
+2
+
+Program1 Output:
+2.00000000
+
+Program2 Output:
+2.0000021840
+
+The accuracy is 0.0000010920
+------------------------------------- 
+Test case 17:  Accepted
+------------------------------------- 
+Test case 18:  Accepted
+------------------------------------- 
+Test case 19:  Wrong Answer
+Input:
+3
+
+Program1 Output:
+3.00000000
+
+Program2 Output:
+3.0000070862
+
+The accuracy is 0.0000023621
+------------------------------------- 
+Test case 20:  Wrong Answer
+Input:
+2
+
+Program1 Output:
+2.00000000
+
+Program2 Output:
+2.0000021840
+
+The accuracy is 0.0000010920
+------------------------------------- 
+Test case 21:  Accepted
+------------------------------------- 
+Test case 22:  Wrong Answer
+Input:
+6
+
+Program1 Output:
+6.00000000
+
+Program2 Output:
+6.0000065342
+
+The accuracy is 0.0000010890
+------------------------------------- 
+Test case 23:  Wrong Answer
+Input:
+6
+
+Program1 Output:
+6.00000000
+
+Program2 Output:
+6.0000065342
+
+The accuracy is 0.0000010890
+------------------------------------- 
+Test case 24:  Accepted
+------------------------------------- 
+Test case 25:  Accepted
+------------------------------------- 
+Test case 26:  Accepted
+------------------------------------- 
+Test case 27:  Wrong Answer
+Input:
+6
+
+Program1 Output:
+6.00000000
+
+Program2 Output:
+6.0000065342
+
+The accuracy is 0.0000010890
+------------------------------------- 
+Test case 28:  Accepted
+------------------------------------- 
+Test case 29:  Wrong Answer
+Input:
+2
+
+Program1 Output:
+2.00000000
+
+Program2 Output:
+2.0000021840
+
+The accuracy is 0.0000010920
+------------------------------------- 
+Test case 30:  Accepted
+------------------------------------- 
+Test case 31:  Accepted
+------------------------------------- 
+Test case 32:  Wrong Answer
+Input:
+2
+
+Program1 Output:
+2.00000000
+
+Program2 Output:
+2.0000021856
+
+The accuracy is 0.0000010928
+------------------------------------- 
+Test case 33:  Wrong Answer
+Input:
+2
+
+Program1 Output:
+2.00000000
+
+Program2 Output:
+2.0000021856
+
+The accuracy is 0.0000010928
+------------------------------------- 
+Test case 34:  Wrong Answer
+Input:
+4
+
+Program1 Output:
+4.00000000
+
+Program2 Output:
+4.0000043621
+
+The accuracy is 0.0000010905
+------------------------------------- 
+Test case 35:  Accepted
+------------------------------------- 
+Test case 36:  Accepted
+------------------------------------- 
+Test case 37:  Accepted
+------------------------------------- 
+Test case 38:  Accepted
+------------------------------------- 
+Test case 39:  Accepted
+------------------------------------- 
+Test case 40:  Wrong Answer
+Input:
+2
+
+Program1 Output:
+2.00000000
+
+Program2 Output:
+2.0000021856
+
+The accuracy is 0.0000010928
+------------------------------------- 
