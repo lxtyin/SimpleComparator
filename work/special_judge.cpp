@@ -4,18 +4,24 @@
 // input data can be read by inp(ifstream)
 // program1 output can be read by ans1(ifstream), so as ans2.
 int main() {
-    double as1, as2;
-    ans1 >> as1;
-    ans2 >> as2;
+    int n;
+    inp >> n;
+    vector<bool> vis(n+1, false);
 
-    if(abs(as1 - as2) / as2 < 1e-6) AC();
-    else {
+    bool fg = false;
+    for(int i=1;i<=n;i++){
+        int x; ans1 >> x;
+        if(vis[x] || x > n){
+            fg = true;
+        }else{
+            vis[x] = true;
+        }
+    }
+    if(fg){
         WA();
         display();
-        color(YELLOW);
-        printf("The accuracy is %.10f\n", abs(as1 - as2) / as2);
-        color(WHITE);
-    }
+        hint("what it is?");
+    }else AC();
 
     inp.close();
     ans1.close();

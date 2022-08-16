@@ -13,7 +13,10 @@ int main(int argc, char *argv[]){
     //Write your construction output in this area
     //Do not modify the seed above.
 
-    cout << rd(2, 10) << '\n';
+    cout << 100 << ' ' << 5 << '\n';
+    for(int i=1;i<=5;i++){
+        cout << rd(1, 100) << ' ' << rd(1, 100) << '\n';
+    }
 
     //--------
 }

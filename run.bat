@@ -8,7 +8,6 @@ g++ ../program1.cpp -o solve1
 g++ ../program2.cpp -o solve2
 g++ ../generator.cpp -o generator
 g++ default_judge.cpp -o checker
-g++ render.cpp -o render
 
 type nul > ../result.txt
 
