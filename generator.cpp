@@ -13,9 +13,13 @@ int main(int argc, char *argv[]){
     //Write your construction output in this area
     //Do not modify the seed above.
 
-    cout << 100 << ' ' << 5 << '\n';
-    for(int i=1;i<=5;i++){
-        cout << rd(1, 100) << ' ' << rd(1, 100) << '\n';
+    int n = rd(3, 5), m = rd(3, 5);
+    cout << n << ' ' << m << '\n';
+    for(int i = 1;i <= n;i++){
+        for(int j = 1;j <= m;j++){
+            cout << rd(0, 1);
+        }
+        cout << '\n';
     }
 
     //--------

@@ -1,335 +1,213 @@
 Test case 1:  Accepted
 ------------------------------------- 
-Test case 2:  Accepted
+Test case 2:  Wrong Answer
+Input:
+5 3
+100
+000
+000
+110
+000
+
+Program1 Output:
+0
+
+Program2 Output:
+2
+
 ------------------------------------- 
-Test case 3:  Accepted
+Test case 3:  Wrong Answer
+Input:
+3 3
+100
+000
+010
+
+Program1 Output:
+1
+
+Program2 Output:
+2
+
 ------------------------------------- 
-Test case 4:  Accepted
+Test case 4:  Wrong Answer
+Input:
+3 5
+01001
+01001
+10101
+
+Program1 Output:
+6
+
+Program2 Output:
+4
+
 ------------------------------------- 
-Test case 5:  Accepted
+Test case 5:  Wrong Answer
+Input:
+3 3
+000
+011
+000
+
+Program1 Output:
+0
+
+Program2 Output:
+1
+
 ------------------------------------- 
-Test case 6:  Accepted
+Test case 6:  Wrong Answer
+Input:
+4 3
+000
+000
+010
+000
+
+Program1 Output:
+0
+
+Program2 Output:
+1
+
 ------------------------------------- 
-Test case 7:  Accepted
+Test case 7:  Wrong Answer
+Input:
+4 3
+000
+110
+100
+010
+
+Program1 Output:
+1
+
+Program2 Output:
+3
+
 ------------------------------------- 
-Test case 8:  Accepted
+Test case 8:  Wrong Answer
+Input:
+3 4
+0000
+0001
+0000
+
+Program1 Output:
+0
+
+Program2 Output:
+1
+
 ------------------------------------- 
 Test case 9:  Accepted
 ------------------------------------- 
-Test case 10:  Accepted
+Test case 10:  Wrong Answer
+Input:
+3 4
+0100
+1000
+0000
+
+Program1 Output:
+0
+
+Program2 Output:
+2
+
 ------------------------------------- 
 Test case 11:  Accepted
 ------------------------------------- 
-Test case 12:  Accepted
+Test case 12:  Wrong Answer
+Input:
+4 4
+0101
+0100
+0011
+1001
+
+Program1 Output:
+4
+
+Program2 Output:
+5
+
+------------------------------------- 
+Test case 13:  Wrong Answer
+Input:
+5 5
+11000
+01101
+00000
+10000
+10001
+
+Program1 Output:
+4
+
+Program2 Output:
+6
+
+------------------------------------- 
+Test case 14:  Wrong Answer
+Input:
+3 3
+000
+100
+000
+
+Program1 Output:
+0
+
+Program2 Output:
+1
+
+------------------------------------- 
+Test case 15:  Wrong Answer
+Input:
+5 5
+00100
+00000
+00001
+01010
+00000
+
+Program1 Output:
+0
+
+Program2 Output:
+4
+
+------------------------------------- 
+Test case 16:  Wrong Answer
+Input:
+5 3
+100
+011
+001
+000
+000
+
+Program1 Output:
+1
+
+Program2 Output:
+3
+
+------------------------------------- 
+Test case 17:  Wrong Answer
+Input:
+3 4
+0000
+0001
+0000
+
+Program1 Output:
+0
+
+Program2 Output:
+1
+
 ------------------------------------- 
-Test case 13:  Accepted
-------------------------------------- 
-Test case 14:  Accepted
-------------------------------------- 
-Test case 15:  Accepted
-------------------------------------- 
-Test case 16:  Accepted
-------------------------------------- 
-Test case 17:  Accepted
-------------------------------------- 
-Test case 18:  Accepted
-------------------------------------- 
-Test case 19:  Accepted
-------------------------------------- 
-Test case 20:  Accepted
-------------------------------------- 
-Test case 21:  Accepted
-------------------------------------- 
-Test case 22:  Accepted
-------------------------------------- 
-Test case 23:  Accepted
-------------------------------------- 
-Test case 24:  Accepted
-------------------------------------- 
-Test case 25:  Accepted
-------------------------------------- 
-Test case 26:  Accepted
-------------------------------------- 
-Test case 27:  Accepted
-------------------------------------- 
-Test case 28:  Accepted
-------------------------------------- 
-Test case 29:  Accepted
-------------------------------------- 
-Test case 30:  Accepted
-------------------------------------- 
-Test case 31:  Accepted
-------------------------------------- 
-Test case 32:  Accepted
-------------------------------------- 
-Test case 33:  Accepted
-------------------------------------- 
-Test case 34:  Accepted
-------------------------------------- 
-Test case 35:  Accepted
-------------------------------------- 
-Test case 36:  Accepted
-------------------------------------- 
-Test case 37:  Accepted
-------------------------------------- 
-Test case 38:  Accepted
-------------------------------------- 
-Test case 39:  Accepted
-------------------------------------- 
-Test case 40:  Accepted
-------------------------------------- 
-Test case 41:  Accepted
-------------------------------------- 
-Test case 42:  Accepted
-------------------------------------- 
-Test case 43:  Accepted
-------------------------------------- 
-Test case 44:  Accepted
-------------------------------------- 
-Test case 45:  Accepted
-------------------------------------- 
-Test case 46:  Accepted
-------------------------------------- 
-Test case 47:  Accepted
-------------------------------------- 
-Test case 48:  Accepted
-------------------------------------- 
-Test case 49:  Accepted
-------------------------------------- 
-Test case 50:  Accepted
-------------------------------------- 
-Test case 51:  Accepted
-------------------------------------- 
-Test case 52:  Accepted
-------------------------------------- 
-Test case 53:  Accepted
-------------------------------------- 
-Test case 54:  Accepted
-------------------------------------- 
-Test case 55:  Accepted
-------------------------------------- 
-Test case 56:  Accepted
-------------------------------------- 
-Test case 57:  Accepted
-------------------------------------- 
-Test case 58:  Accepted
-------------------------------------- 
-Test case 59:  Accepted
-------------------------------------- 
-Test case 60:  Accepted
-------------------------------------- 
-Test case 61:  Accepted
-------------------------------------- 
-Test case 62:  Accepted
-------------------------------------- 
-Test case 63:  Accepted
-------------------------------------- 
-Test case 64:  Accepted
-------------------------------------- 
-Test case 65:  Accepted
-------------------------------------- 
-Test case 66:  Accepted
-------------------------------------- 
-Test case 67:  Accepted
-------------------------------------- 
-Test case 68:  Accepted
-------------------------------------- 
-Test case 69:  Accepted
-------------------------------------- 
-Test case 70:  Accepted
-------------------------------------- 
-Test case 71:  Accepted
-------------------------------------- 
-Test case 72:  Accepted
-------------------------------------- 
-Test case 73:  Accepted
-------------------------------------- 
-Test case 74:  Accepted
-------------------------------------- 
-Test case 75:  Accepted
-------------------------------------- 
-Test case 76:  Accepted
-------------------------------------- 
-Test case 77:  Accepted
-------------------------------------- 
-Test case 78:  Accepted
-------------------------------------- 
-Test case 79:  Accepted
-------------------------------------- 
-Test case 80:  Accepted
-------------------------------------- 
-Test case 81:  Accepted
-------------------------------------- 
-Test case 82:  Accepted
-------------------------------------- 
-Test case 83:  Accepted
-------------------------------------- 
-Test case 84:  Accepted
-------------------------------------- 
-Test case 85:  Accepted
-------------------------------------- 
-Test case 86:  Accepted
-------------------------------------- 
-Test case 87:  Accepted
-------------------------------------- 
-Test case 88:  Accepted
-------------------------------------- 
-Test case 89:  Accepted
-------------------------------------- 
-Test case 90:  Accepted
-------------------------------------- 
-Test case 91:  Accepted
-------------------------------------- 
-Test case 92:  Accepted
-------------------------------------- 
-Test case 93:  Accepted
-------------------------------------- 
-Test case 94:  Accepted
-------------------------------------- 
-Test case 95:  Accepted
-------------------------------------- 
-Test case 96:  Accepted
-------------------------------------- 
-Test case 97:  Accepted
-------------------------------------- 
-Test case 98:  Accepted
-------------------------------------- 
-Test case 99:  Accepted
-------------------------------------- 
-Test case 100:  Accepted
-------------------------------------- 
-Test case 101:  Accepted
-------------------------------------- 
-Test case 102:  Accepted
-------------------------------------- 
-Test case 103:  Accepted
-------------------------------------- 
-Test case 104:  Accepted
-------------------------------------- 
-Test case 105:  Accepted
-------------------------------------- 
-Test case 106:  Accepted
-------------------------------------- 
-Test case 107:  Accepted
-------------------------------------- 
-Test case 108:  Accepted
-------------------------------------- 
-Test case 109:  Accepted
-------------------------------------- 
-Test case 110:  Accepted
-------------------------------------- 
-Test case 111:  Accepted
-------------------------------------- 
-Test case 112:  Accepted
-------------------------------------- 
-Test case 113:  Accepted
-------------------------------------- 
-Test case 114:  Accepted
-------------------------------------- 
-Test case 115:  Accepted
-------------------------------------- 
-Test case 116:  Accepted
-------------------------------------- 
-Test case 117:  Accepted
-------------------------------------- 
-Test case 118:  Accepted
-------------------------------------- 
-Test case 119:  Accepted
-------------------------------------- 
-Test case 120:  Accepted
-------------------------------------- 
-Test case 121:  Accepted
-------------------------------------- 
-Test case 122:  Accepted
-------------------------------------- 
-Test case 123:  Accepted
-------------------------------------- 
-Test case 124:  Accepted
-------------------------------------- 
-Test case 125:  Accepted
-------------------------------------- 
-Test case 126:  Accepted
-------------------------------------- 
-Test case 127:  Accepted
-------------------------------------- 
-Test case 128:  Accepted
-------------------------------------- 
-Test case 129:  Accepted
-------------------------------------- 
-Test case 130:  Accepted
-------------------------------------- 
-Test case 131:  Accepted
-------------------------------------- 
-Test case 132:  Accepted
-------------------------------------- 
-Test case 133:  Accepted
-------------------------------------- 
-Test case 134:  Accepted
-------------------------------------- 
-Test case 135:  Accepted
-------------------------------------- 
-Test case 136:  Accepted
-------------------------------------- 
-Test case 137:  Accepted
-------------------------------------- 
-Test case 138:  Accepted
-------------------------------------- 
-Test case 139:  Accepted
-------------------------------------- 
-Test case 140:  Accepted
-------------------------------------- 
-Test case 141:  Accepted
-------------------------------------- 
-Test case 142:  Accepted
-------------------------------------- 
-Test case 143:  Accepted
-------------------------------------- 
-Test case 144:  Accepted
-------------------------------------- 
-Test case 145:  Accepted
-------------------------------------- 
-Test case 146:  Accepted
-------------------------------------- 
-Test case 147:  Accepted
-------------------------------------- 
-Test case 148:  Accepted
-------------------------------------- 
-Test case 149:  Accepted
-------------------------------------- 
-Test case 150:  Accepted
-------------------------------------- 
-Test case 151:  Accepted
-------------------------------------- 
-Test case 152:  Accepted
-------------------------------------- 
-Test case 153:  Accepted
-------------------------------------- 
-Test case 154:  Accepted
-------------------------------------- 
-Test case 155:  Accepted
-------------------------------------- 
-Test case 156:  Accepted
-------------------------------------- 
-Test case 157:  Accepted
-------------------------------------- 
-Test case 158:  Accepted
-------------------------------------- 
-Test case 159:  Accepted
-------------------------------------- 
-Test case 160:  Accepted
-------------------------------------- 
-Test case 161:  Accepted
-------------------------------------- 
-Test case 162:  Accepted
-------------------------------------- 
-Test case 163:  Accepted
-------------------------------------- 
-Test case 164:  Accepted
-------------------------------------- 
-Test case 165:  Accepted
-------------------------------------- 
-Test case 166:  Accepted
-------------------------------------- 
-Test case 167:  Accepted
-------------------------------------- 
-Test case 168:  

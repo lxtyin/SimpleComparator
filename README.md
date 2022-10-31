@@ -1,10 +1,8 @@
-#### [Github项目地址](https://github.com/lxtyin/SimpleComparator)
-
 2021/9/23
 
 #### 环境需求
 
-- 仅支持windows
+- 仅支持windows（其他系统可自行改写run.bat）
 
 - 装有MinGW并且添加到环境变量（使用g++编译）
 
